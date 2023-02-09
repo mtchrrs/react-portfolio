@@ -9,10 +9,25 @@ import Commodity from "../assets/commodity-news.png";
 import Password from "../assets/password.png";
 import Quiz from "../assets/quiz.png";
 import Scheduler from "../assets/work-day-scheduler.png";
+import network from "../assets/network.png"
 
 function Projects() {
   return (
     <div class="workSection my-work">
+      <div class="work-card">
+        <div class="work-img jate-img">
+          <img class="img-resize" src={network} alt="Network.io Application"></img>
+        </div>
+        <div class="gitandlaunch">
+          <a class="git" href="https://github.com/mtchrrs/network.io">
+            <img src={Git} alt="github"></img>
+          </a>
+          <a class="launch" href="https://networkio-version-one.netlify.app/">
+            <img src={Launch} alt="launch"></img>
+          </a>
+        </div>
+      </div>
+      
       <div class="work-card">
         <div class="work-img jate-img">
           <img class="img-resize" src={JATE} alt="Jate Application"></img>
